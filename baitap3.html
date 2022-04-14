@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        background-color: rgb(190, 243, 243);
+        border: 1px solid white;
+        width: 520px;
+      }
+      table {
+        width: 500px;
+
+        background-color: white;
+        margin: 5px 10px 10px 10px;
+      }
+      .header {
+        background-color: orangered;
+        text-align: center;
+      }
+      .title {
+        color: blue;
+        text-align: right;
+      }
+      .hoobit {
+        color: rgb(207, 105, 68);
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td class="header" colspan="4">SỞ THÍCH CỦA BẠN</td>
+        </tr>
+        <tr>
+          <td class="title">Họ và tên</td>
+          <td colspan="3"><input type="text" size="30" /></td>
+        </tr>
+        <tr>
+          <td class="title">Email</td>
+          <td colspan="3"><input type="text" /></td>
+        </tr>
+        <tr class="hoobit">
+          <td class="title">Sở thích</td>
+          <td><input type="checkbox" />Thể theo</td>
+          <td><input type="checkbox" />Âm nhạc</td>
+          <td><input type="checkbox" />Đọc sách</td>
+        </tr>
+        <tr class="hoobit">
+          <td></td>
+          <td><input type="checkbox" />Lướt web</td>
+          <td><input type="checkbox" />Chơi game</td>
+          <td><input type="checkbox" />Điện ảnh</td>
+        </tr>
+        <tr class="hoobit">
+          <td></td>
+          <td><input type="checkbox" />Du lịch</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="3">
+            <input type="button" value="Gửi thông tin" />
+            <input type="reset" value="Nhập lại" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <!-- Đăng ký học viên -->
+    <form style="background-color: white">
+      <table style="background-color: rgb(224, 224, 174); color: blue">
+        <tr>
+          <td
+            colspan="2"
+            style="background-color: rgb(190, 243, 243); font-weight: bold"
+          >
+            ĐĂNG KÝ HỌC VIÊN
+          </td>
+        </tr>
+        <tr>
+          <td>Họ và tên</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Ngày sinh</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Giới tính</td>
+          <td>
+            <input type="radio" name="rd" />Nam
+            <input type="radio" name="rd" />Nữ
+          </td>
+        </tr>
+        <tr>
+          <td>Địa chỉ</td>
+          <td><input type="textarea" /></td>
+        </tr>
+        <tr>
+          <td>Lớp</td>
+          <td>
+            <select>
+              <option value="1">-Chọn lớp-</option>
+              <option value="2">Javascrip</option>
+              <option value="3">PHP</option>
+              <option value="4">.NET</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Điện thoại</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Đăng ký" />
+            <input type="reset" value="Nhập lại" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
